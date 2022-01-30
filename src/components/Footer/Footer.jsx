@@ -29,18 +29,18 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        
+
         <div className={classes.right}>
-        {/* This data changes rapidly, so what’s shown may be out of date.  */}
+          {/* This data changes rapidly, so what’s shown may be out of date.  */}
           &copy; {1900 + new Date().getYear()} , made by{" "}
           <a
-            href="http://digitaldata.in/"
+            href="https://linkedin.com/in/AdityaSid/"
             className={aClasses}
             target="_blank"
           >
             Aditya
           </a>{" "}
-          
+
         </div>
       </div>
     </footer>
